@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <h1>Intervalle</h1>
+        <form className="input-form">
+            <label>Interval 1 (sek.)</label>
+            <input className="input" type="text" name="intervalOne" />
+            <label>Wiederholungen</label>
+            <input className="input" type="text" name="intervalOne" />
+            <br/>
+            <input type="submit" value="Los" onClick={startTimer()}/>
+        </form>
     </div>
   );
 }
