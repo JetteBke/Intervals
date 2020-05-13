@@ -1,0 +1,9 @@
+.app-container {
+  text-align: center;
+  padding: 20px 0px;
+  background-color: rgb(230,230,230);
+  width: 75%;
+  margin: 50px auto;
+  border-radius: 5px;
+  height: 85vh;
+}
