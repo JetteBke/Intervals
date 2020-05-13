@@ -1,0 +1,14 @@
+.intervalForm {
+    background-color: burlywood;
+    display: grid;
+    padding: 30px 20px;
+    font-size: 20px;
+}
+
+.formLabel {
+
+}
+
+.formInput {
+    margin-bottom: 20px;
+}
