@@ -13,3 +13,18 @@
     margin: auto;
     background-color: burlywood;
 }
+
+.startButton {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.2rem 0.3rem;
+    border-radius: 20px;
+    border: 2px solid rgb(230,230,230);
+    font-size: 0.5rem;
+    transition-duration: 0.25s, 0.25s;
+    transition-timing-function: ease-out, ease-out;
+    transition-delay: 0s, 0s;
+    cursor: pointer;
+    margin: auto;
+    background-color: black;
+}
